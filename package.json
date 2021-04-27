@@ -1,0 +1,28 @@
+{
+  "name": "ingressos",
+  "version": "1.0.0",
+  "description": "Projeto da UC de Sistemas Distribuídos da Universidade São Judas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoriaPaula/ingressos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitoriaPaula/ingressos/issues"
+  },
+  "homepage": "https://github.com/VitoriaPaula/ingressos#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "corss": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
